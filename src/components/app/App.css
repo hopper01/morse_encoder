@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  font-family: monospace;
+  font-weight: 700;
+}
+
+/*Display*/
+.circle{
+	border-radius: 50%;
+	margin-left: 3px;
+	background-color: red;
+	width: 15px;
+	height: 15px;
+}
+
+.dash{
+	background-color: #EEEEEE;
+	margin-left: 3px;
+	width: 17px;
+	height: 7px;
+}
+.whitespace{
+	width: 20px;
+}
+#res{
+  display: flex;
+  flex-direction: row;
+  row-gap: 15px;
+	align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 4rem;
+  margin: 1.5rem;
+  border-radius: 25px;
+  line-height: 2rem;
+}

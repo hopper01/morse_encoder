@@ -1,0 +1,19 @@
+i{
+    font-size: 5rem;
+    margin: 3rem;
+    color: white;
+}
+button {
+    border: none;
+    background-color: black;
+}
+.utils{
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: black;
+    border-radius: 25px;
+}
